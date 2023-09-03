@@ -1,4 +1,5 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
+import WebCamera from "./WebCam";
 
 const VideoRecorder = () => {
     const mimeType = "video/webm";
@@ -101,6 +102,9 @@ const VideoRecorder = () => {
                         </a>
                     </div>
                     ) : null}
+                </div>
+                <div>
+                    <WebCamera />
                 </div>
             </main>
         </div>

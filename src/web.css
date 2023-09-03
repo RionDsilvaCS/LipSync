@@ -1,0 +1,70 @@
+
+@font-face {
+  font-family: IBMPlexRegular;
+  src: local('IBMPlexSans-Regular'), 
+  url('./fonts/IBMPlexSans-Regular.ttf') format('truetype');
+}
+
+.cam-win {
+  margin: 0 auto;
+  width: 640px;
+  height: 360px;
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+  /* display: flex;
+  justify-content: center; */
+  display: flex;
+  position: relative;
+  box-shadow: 4px 4px 8px #20202020;
+  
+}
+
+.video-win{
+  width: 96%;
+  height: 324px;
+  background-color: #20202020;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  
+}
+.cam-btn{
+  margin-right: 3rem;
+  margin-bottom: 1.5rem;
+  border-radius: 100%;
+  height: 2.3rem;
+  width: 2.3rem;
+  outline: none;
+  border: none;
+  background-color: #45D6E2;
+  color: #ffffff;
+  padding-top: 6px;
+}
+
+.pos-bottom{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  
+  
+}
+.output-box{
+  width: 640px;
+  height: 96px;
+  background-color: #ffffff;
+  margin: 1rem auto;
+  border-radius: 0.75rem;
+  box-shadow: 4px 4px 8px #20202020;
+  padding: 12px 24px;
+}
+
+textarea{
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  font-family: IBMPlexRegular;
+}

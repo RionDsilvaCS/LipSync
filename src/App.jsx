@@ -1,30 +1,14 @@
 import "./App.css";
-import { useState, useRef } from "react";
-import VideoRecorder from "./VideoRecorder";
-import AudioRecorder from "./AudioRecorder";
+import { useState, useRef, useEffect } from "react";
+import Navbar from "./NavBar";
+import WebCamera from "./WebCam";
+
 
 const App = () => {
-    let [recordOption, setRecordOption] = useState("video");
-    const toggleRecordOption = (type) => {
-        return () => {
-            setRecordOption(type);
-        };
-    };
+    
     return (
-        <div>
-            <h1>React Media Recorder</h1>
-            <div className="button-flex">
-                <button onClick={toggleRecordOption("video")}>
-                  Record Video
-                </button>
-                <button onClick={toggleRecordOption("audio")}>
-                  Record Audio
-                </button>
-            </div>
-            <div>
-                {recordOption === "video" ? <VideoRecorder /> : <AudioRecorder />}
-            </div>
-        </div>
+    <Navbar />
     );
 };
+
 export default App;
