@@ -53,6 +53,7 @@ body {
   align-items: center;
   gap: 2rem;
   padding: 0 1rem;
+  margin-bottom: 96px;
 }
 
 .nav ul {
