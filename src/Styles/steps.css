@@ -1,0 +1,95 @@
+.page-about{
+    display: flex;
+    justify-content: center;
+}
+
+
+.box{
+    border-color: #03DAC6;
+    width: 27dvw;
+    height: 60dvh;
+    margin: 20px;
+    border-radius: 16px;
+    border-style: solid;
+    border-width: 1px;
+    /* border-image: linear-gradient(0deg, rgba(3, 218, 198, 0.1), rgba(3, 218, 198, 0.6)) 1; */
+}
+
+
+
+.space{
+    padding: 24px 32px 24px 32px;
+}
+.purp{
+    border-color: rgba(187, 134, 252, 0.6);
+}
+
+.card-step{
+    font-size: 24px;
+    font-weight: 500;    
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+
+.card-cont{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.back-grad{
+    height: 25dvh;
+    width: 50%;
+    position: absolute;
+    margin: 0px;
+    background: radial-gradient(
+        ellipse at top,
+        #03DAC6 0%, rgba(3, 218, 198, 0) 36%
+      );
+      translate: -24%;
+      
+}
+.back-grad-purp{
+    height: 25dvh;
+    width: 50%;
+    position: absolute;
+    margin: 0px;
+    background: radial-gradient(
+        ellipse at top,
+        #BB86FC 0%, rgba(3, 218, 198, 0) 36%
+      );
+      translate: -24%;
+}
+
+.shadow-box{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.color-shadow{
+    height: 80px;
+    width: 100%;
+    margin: 20px;
+    background: radial-gradient(
+        ellipse at center,
+        #03dac54b 0%, rgba(3, 218, 198, 0) 60%
+      );
+}
+
+.color-shadow-purp{
+    height: 80px;
+    width: 100%;
+    margin: 20px;
+    background: radial-gradient(
+        ellipse at center,
+        #bb86fc42 0%, rgba(3, 218, 198, 0) 60%
+      );
+}

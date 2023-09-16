@@ -1,0 +1,56 @@
+:root {
+	--textColor: #ffffff;
+}
+
+header{
+    display: flex;
+    width: 100%;
+	padding: 4dvh 6.2dvw 4dvh 6.2dvw;
+    align-items: center;
+    justify-content: space-between;
+	position: fixed;
+	top: 0;
+	background-image: linear-gradient(0deg, #0a081400, #0a0814de, #0A0814);
+}
+h1 {
+    font-weight: bold;
+}
+.ab { 
+    text-decoration: none;
+    color: var(--textColor);
+    margin: 0px 1.5dvw 0px 1.5dvw;
+	padding: 8px 22px 8px 22px;
+    font-size: 20px;
+	border-radius: 6px;
+	background-color: transparent;
+	transition: background-color 1s, color 1s;
+	
+}
+
+.ab:hover {
+    background-color: #ffffffdd;
+	color: #0A0814;
+
+}
+
+header .nav-btn {
+	visibility: hidden;
+	opacity: 0;
+}
+header .nav-bar{
+    margin: 0px 0px 0px 80px;
+    padding: 4px;
+}
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+.login-btn{
+    text-decoration: none;
+    padding: 8px 22px 8px 22px;
+    background-color: white;
+    border-radius: 6px;
+    color: #202020;
+}

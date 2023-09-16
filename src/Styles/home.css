@@ -1,0 +1,32 @@
+
+.gradeint{
+    height: 100dvh;
+    /* background: radial-gradient(
+    circle at left,
+    #03DAC6, transparent
+  ) */
+  display: flex;
+  align-items: center;
+  
+}
+.cont{
+    padding: 0dvh 0dvw 0dvh 18dvw;
+    width: max-content;
+    
+}
+
+
+.below-hero-line{
+    margin: 12px 0px 48px 0px;
+    font-size: 1.875dvw;
+    font-weight: 500;
+    line-height: 123.5%;
+}
+
+.start-btn{
+    text-decoration: none;
+    padding: 8px 22px 8px 22px;
+    background-color: #BB86FC;
+    border-radius: 6px;
+    color: white;
+}

@@ -1,0 +1,29 @@
+
+
+.product-content-box{
+    height: 60dvh;
+    width:  87.5dvw;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: rgba(255, 255, 255, 0.303) ;
+    border-width: 2px;
+    padding: 44px 52px;
+    background: radial-gradient(
+        circle at top left,
+        #BB86FC, 
+        transparent 40dvh
+      ),
+      radial-gradient(
+      circle at bottom right,
+      #03DAC6, 
+      transparent 40dvh
+    );
+}
+
+.body-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 148%;
+    color: rgba(255, 255, 255, 0.8);
+    width: 35dvw;
+}
