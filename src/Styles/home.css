@@ -15,12 +15,12 @@
     
 }
 
-
 .below-hero-line{
     margin: 12px 0px 48px 0px;
     font-size: 1.875dvw;
     font-weight: 500;
     line-height: 123.5%;
+    /* animation: fadeInNav 1s ease-in both; */
 }
 
 .start-btn{
@@ -29,4 +29,5 @@
     background-color: #BB86FC;
     border-radius: 6px;
     color: white;
+    /* animation: fadeInNav 1s ease-in both; */
 }

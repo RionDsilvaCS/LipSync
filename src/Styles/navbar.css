@@ -11,6 +11,7 @@ header{
 	position: fixed;
 	top: 0;
 	background-image: linear-gradient(0deg, #0a081400, #0a0814de, #0A0814);
+    animation: fadeInNav 1s ease-in both;
 }
 h1 {
     font-weight: bold;

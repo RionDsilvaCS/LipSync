@@ -1,5 +1,8 @@
 import React from 'react';
 import "../Styles/about.css"
+import gitIcon from "../assets/github_icon.svg"
+import linkIcon from "../assets/linkedin_icon.svg"
+import instaIcon from "../assets/instagram_icon.svg"
 
 function About (){
     return (
@@ -10,11 +13,16 @@ function About (){
                         <div className='details'>
                             <div className='story bor-pro'>
                                 <p className='sub-title'>Story behind LipSync</p>
-                                <p className='body-text'>Create a new account using your email and a dashboard will be visible now, tap that buddy.</p>
+                                <p className='body-text'>All this started when i went through the problem statements provided in "IBM Hack" by IBM. and they needed a better solution. So i thought of giving it a try and here we are. </p>
                             </div>
                             <div className='dev-name bor-pro'>
                                 <p className='sub-title'>Rion Sebastian Dsilva </p>
                                 <p className='body-text'>3rd year student pursuing Computer Science Engineering, Vellore Institute of Technology - Andhra Pradesh.</p>
+                                <div className='social-grp'>
+                                <a href='https://github.com/RionDsilvaCS' className='social-icon' target="_blank"><img src={gitIcon}/></a>
+                                <a href='https://www.linkedin.com/in/rion-dsilva-043464229/' className='social-icon' target="_blank"><img src={linkIcon}/></a>
+                                <a href='https://instagram.com/rion_dsilva?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D' className='social-icon' target="_blank"><img src={instaIcon}/></a>
+                                </div>
                             </div>
                         </div>
                         <div className='tech bor-pro'>

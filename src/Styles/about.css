@@ -58,3 +58,44 @@
     font-weight: 500;
     margin-bottom: 12px;
 }
+
+.social-grp{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.social-icon{
+    height: 6dvh;
+    width: 6dvh;
+    /* background-color: #BB86FC; */
+    border-style: solid;
+    border-radius: 30dvh;
+    border-color: white;
+    border-width: 1px;
+    margin-right: 4dvh;
+    display: flex;
+    justify-content: center;
+    
+}
+.social-icon img{
+    height: 2.5dvh;
+    /* width: 3dvh; */
+    margin: auto;
+    width: 50%;  
+}
+
+.social-icon:hover{
+
+    background-color: #ffffff28;
+    border-style: solid;
+    border-radius: 30dvh;
+    border-color: #03DAC6;
+    background-color: #03dac584;
+    border-width: 1px;
+    margin-right: 4dvh;
+    display: flex;
+    justify-content: center;
+    transition-delay: 0.1;
+}

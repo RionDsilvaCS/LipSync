@@ -20,6 +20,11 @@ function Steps() {
               Create a new account using your email and a dashboard will be
               visible now, tap that buddy.
             </p>
+            <center>
+              <a href="#" className="card-btn">
+                Sign In
+              </a>
+              </center>
           </div>
         </div>
         <div className="box purp">
@@ -46,6 +51,11 @@ function Steps() {
               When done with recording your video click on LipSync and the words
               will find their voice in silence.
             </p>
+            <center>
+              <a href="#" className="card-btn">
+                LipSync
+              </a>
+              </center>
           </div>
         </div>
       </div>
