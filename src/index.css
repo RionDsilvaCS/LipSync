@@ -13,6 +13,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  cursor: url('./assets/cursor_icon.svg'), auto;
+  
 }
 
 * {
@@ -48,16 +50,18 @@ body{
   font-size: 3.75dvw;
   line-height: 100%;
   width: max-content;
-  margin-bottom: 52px;
+  /* margin-bottom: 52px; */
 }
 
 .foot-page{
   height: 50dvh;
-  width: 98dvw;
-  margin: 1dvw;
+  width: 100%;
   background-color: #1C1636;
 }
 
+.bottom-margin {
+  margin-bottom: 52px;
+}
 @keyframes fadeIn {
 	from {
 		opacity: 0;

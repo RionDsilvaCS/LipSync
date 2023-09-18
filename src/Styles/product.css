@@ -1,30 +1,50 @@
-
-
-.product-content-box{
+.product-content-box {
     height: 60dvh;
-    width:  87.5dvw;
+    width: 87.5dvw;
     border-style: solid;
     border-radius: 16px;
-    border-color: rgba(255, 255, 255, 0.303) ;
+    border-color: rgba(255, 255, 255, 0.303);
     border-width: 2px;
     padding: 44px 52px;
-    background: radial-gradient(
-        circle at top left,
-        #BB86FC, 
-        transparent 40dvh
-      ),
-      radial-gradient(
-      circle at bottom right,
-      #03DAC6, 
-      transparent 40dvh
-    );
+    background: radial-gradient(circle at top left,
+            #BB86FC,
+            #BB86FC71,
+            #BB86FC26,
+            transparent 40dvh),
+        radial-gradient(circle at bottom right,
+            #03dac5,
+            #03dac571,
+            #03dac526,
+            transparent 40dvh);
 }
 
-.body-text{
+.body-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 148%;
     color: rgba(255, 255, 255, 0.8);
     width: 35dvw;
     text-align: justify;
+}
+
+.top-grad {
+    height: 52px;
+    width: 100%;
+    /* background-color: #03DAC6; */
+    background: radial-gradient(ellipse at bottom center,
+            #bb86fcca,
+            #bb86fc71,
+            #bb86fc42,
+            transparent 40dvw);
+}
+
+.bottom-grad {
+    height: 52px;
+    width: 100%;
+    /* background-color: #03DAC6; */
+    background: radial-gradient(ellipse at top center,
+            #03DAC6ca,
+            #03DAC671,
+            #03DAC642,
+            transparent 40dvw);
 }

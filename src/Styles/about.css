@@ -22,11 +22,16 @@
     background: radial-gradient(
         circle at top left,
         #BB86FC, 
+        #BB86FC71,
+        #BB86FC26,
         transparent 30dvh
       ),
+      
       radial-gradient(
       circle at bottom right,
-      #03DAC6, 
+      #03dac5, 
+      #03dac571,
+      #03dac526,
       transparent 30dvh
     );
 }
@@ -35,11 +40,14 @@
     width: 100%;
     height: 30dvh;
     border-radius: 16px 0px 0px 0px;
-    background: radial-gradient(
-        circle at top left,
-        #BB86FC, 
-        transparent 30dvh
-      );
+    background:
+      radial-gradient(
+      circle at top left,
+      #BB86FC, 
+      #BB86FC71,
+      #BB86FC26,
+      transparent 30dvh
+    );
 }
 .dev-name{
     width: 100%;
@@ -48,7 +56,9 @@
     background:
       radial-gradient(
       circle at bottom right,
-      #03DAC6, 
+      #03dac5, 
+      #03dac571,
+      #03dac526,
       transparent 30dvh
     );
 }
@@ -98,4 +108,24 @@
     display: flex;
     justify-content: center;
     transition-delay: 0.1;
+}
+
+.tech-grp{
+    width: 100%;
+    margin: 44px auto;
+    height: 80%;
+    /* background-color: #03dac5; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tech-sub-grp{
+    height: 100%;
+    width: 100%;
+    margin-right: 40px;
+    /* background-color: #BB86FC; */
+}
+
+.tech-sub-grp img{
+    margin-bottom: 64px;
 }

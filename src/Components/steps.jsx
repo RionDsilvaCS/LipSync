@@ -4,7 +4,7 @@ import "../Styles/steps.css";
 function Steps() {
   return (
     <div className="page ">
-      <h1 className="page-title ">
+      <h1 className="page-title bottom-margin ">
         How to use <text className="hero-line">LipSync</text> ?
       </h1>
 
@@ -21,9 +21,9 @@ function Steps() {
               visible now, tap that buddy.
             </p>
             <center>
-              <a href="#" className="card-btn">
+              <button href="#" className="card-btn">
                 Sign In
-              </a>
+              </button>
               </center>
           </div>
         </div>
@@ -35,9 +35,14 @@ function Steps() {
             </center>
             <p className="card-title">Record a Video</p>
             <p className="card-cont">
-              You are inside the dashboard, start recording videos and stop when
+              You are inside the dashboard, start recording videos and stop when<br/>
               ever done.
             </p>
+            <center>
+            <button href="#" className="card-btn-purp">
+                Record
+              </button>
+            </center>
           </div>
         </div>
         <div className="box">
@@ -52,9 +57,9 @@ function Steps() {
               will find their voice in silence.
             </p>
             <center>
-              <a href="#" className="card-btn">
+              <button href="#" className="card-btn">
                 LipSync
-              </a>
+              </button>
               </center>
           </div>
         </div>

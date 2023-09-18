@@ -17,7 +17,7 @@ export default function Navbar() {
                 <Link smooth to="#about" className="ab">About</Link>
             </nav>
 
-            <a href="#" className="login-btn">Login</a>
+            <button className="login-btn">Login</button>
         </header>
         
 

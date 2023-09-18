@@ -31,7 +31,6 @@ h1 {
 .ab:hover {
     background-color: #ffffffdd;
 	color: #0A0814;
-
 }
 
 header .nav-btn {
@@ -49,9 +48,18 @@ nav {
 }
 
 .login-btn{
-    text-decoration: none;
     padding: 8px 22px 8px 22px;
     background-color: white;
     border-radius: 6px;
     color: #202020;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    font-size: 16px;
+}
+
+.login-btn:hover{
+    background-color: #0A0814;
+    color: white;
+    cursor: pointer;
 }

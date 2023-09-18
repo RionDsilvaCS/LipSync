@@ -16,7 +16,7 @@
 }
 
 .below-hero-line{
-    margin: 12px 0px 48px 0px;
+    margin: 12px 0px 24px 0px;
     font-size: 1.875dvw;
     font-weight: 500;
     line-height: 123.5%;
@@ -24,10 +24,42 @@
 }
 
 .start-btn{
-    text-decoration: none;
-    padding: 8px 22px 8px 22px;
+    padding: 12px 22px 12px 22px;
     background-color: #BB86FC;
     border-radius: 6px;
+    border-width: 1px;
     color: white;
+    font-size: 16px;
+    border-style: solid;
+    border-color: #BB86FC;
     /* animation: fadeInNav 1s ease-in both; */
+}
+.start-btn:hover{
+    background-color: #0A0814;
+    color: #BB86FC;
+    cursor: pointer;
+}
+.home-back-grad-left{
+    width: 8dvw;
+    height: 100%;
+    /* background-color: #BB86FC; */
+    position: absolute;
+    background: radial-gradient(ellipse at left,
+            #03dac59f,
+            #03dac558,
+            #03dac530,
+            transparent 8dvw);
+}
+
+.home-back-grad-right{
+    width: 8dvw;
+    height: 100%;
+    /* background-color: #BB86FC; */
+    position: absolute;
+    right: 0;
+    background: radial-gradient(ellipse at right,
+            #BB86FC9f,
+            #BB86FC58,
+            #BB86FC30,
+            transparent 8dvw);
 }
