@@ -84,4 +84,43 @@ body{
   font-weight: 500;
 }
 
+.body-text{
+  font-weight: 400;
+    font-size: 1rem;
+    line-height: 148%;
+    color: #ffffff;
+}
 
+.proj-card{
+  height: 44px;
+  border-style: none;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  border-radius: 12px;
+  padding-right: 44px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.proj-card:hover{
+  background-color: #22202B;
+}
+
+.proj-card div{
+  height: 44px;
+  width: 44px;
+  background-color: #22202B;
+  border-radius: 44px;
+  margin-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.proj-card div img{
+  width: 20px;
+  height: 20px;
+}

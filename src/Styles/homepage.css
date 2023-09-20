@@ -1,29 +1,22 @@
-
-.gradeint{
+.home-page {
     height: 100dvh;
-    /* background: radial-gradient(
-    circle at left,
-    #03DAC6, transparent
-  ) */
-  display: flex;
-  align-items: center;
-  
+    display: flex;
+    align-items: center;
 }
-.cont{
+
+.home-page-padding {
     padding: 0dvh 0dvw 0dvh 18dvw;
     width: max-content;
-    
 }
 
-.below-hero-line{
+.below-hero-line {
     margin: 12px 0px 24px 0px;
     font-size: 1.875dvw;
     font-weight: 500;
     line-height: 123.5%;
-    /* animation: fadeInNav 1s ease-in both; */
 }
 
-.start-btn{
+.start-free-btn {
     padding: 12px 22px 12px 22px;
     background-color: #BB86FC;
     border-radius: 6px;
@@ -34,16 +27,18 @@
     border-color: #BB86FC;
     transition: all 0.2s ease-in-out;
 }
-.start-btn:hover{
+
+.start-free-btn:hover {
     background-color: #0A0814;
     color: #BB86FC;
     cursor: pointer;
     box-shadow: 0 0px 16px #bb86fc42;
 }
-.home-back-grad-left{
+
+
+.home-back-grad-left {
     width: 8dvw;
     height: 100%;
-    /* background-color: #BB86FC; */
     position: absolute;
     background: radial-gradient(ellipse at left,
             #03dac59f,
@@ -52,10 +47,9 @@
             transparent 8dvw);
 }
 
-.home-back-grad-right{
+.home-back-grad-right {
     width: 8dvw;
     height: 100%;
-    /* background-color: #BB86FC; */
     position: absolute;
     right: 0;
     background: radial-gradient(ellipse at right,

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Foot (){
+function Footer (){
     return (
         <div className='foot-page'>
                 
@@ -9,4 +9,4 @@ function Foot (){
     );
 }
   
-export default Foot;
+export default Footer;

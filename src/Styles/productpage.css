@@ -18,19 +18,14 @@
             transparent 40dvh);
 }
 
-.body-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 148%;
-    color: rgba(255, 255, 255, 0.8);
+.product-body-text {
     width: 35dvw;
     text-align: justify;
 }
 
-.top-grad {
+.top-grad-box {
     height: 52px;
     width: 100%;
-    /* background-color: #03DAC6; */
     background: radial-gradient(ellipse at bottom center,
             #bb86fcca,
             #bb86fc71,
@@ -38,10 +33,9 @@
             transparent 40dvw);
 }
 
-.bottom-grad {
+.bottom-grad-box {
     height: 52px;
     width: 100%;
-    /* background-color: #03DAC6; */
     background: radial-gradient(ellipse at top center,
             #03DAC6ca,
             #03DAC671,
