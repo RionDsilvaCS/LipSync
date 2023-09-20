@@ -62,4 +62,6 @@ nav {
     background-color: #0A0814;
     color: white;
     cursor: pointer;
+    box-shadow: 0 0px 8px #ffffff;
+
 }

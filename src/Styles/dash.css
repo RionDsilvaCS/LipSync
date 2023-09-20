@@ -1,0 +1,223 @@
+.pad{
+    margin-top: 21dvh;
+    margin-left: 6.25dvw;
+    margin-bottom: 32px;
+}
+
+.dash-pt-v{
+    margin: auto;
+    height: max-content;
+    width: 87.5dvw;
+    display: flex;
+    justify-content: flex-start;
+}
+.dash-pt-t{
+    margin: 60px auto;
+    height: max-content;
+    width: 87.5dvw;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.303);
+    border-width: 1px;
+    padding: 36px 44px;
+}
+.cont-com{
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.303);
+    border-width: 1px;
+    padding: 24px 36px;
+}
+
+.man-proj{
+    height: 100%;
+    width: 40%;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.man-vid{
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 16px 16px 0px;
+}
+
+
+
+.flex-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash-btn{
+    background-color: #BB86FC;
+    border-width: 0px;
+    color: white;
+    font-size: 1rem;
+    
+}
+
+.create-proj{
+    padding: 18px 24px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+.create-proj:hover{
+    box-shadow: 0 0px 16px #bb86fc42;
+}
+.create-proj img{
+    margin-right: 8px;
+}
+.record{
+    padding: 8px 24px;
+    border-radius: 32px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+.record:hover{
+    box-shadow: 0 0px 16px #bb86fc42;
+}
+.main-vid{
+    width: 50dvw;
+    height: 50dvh;
+    margin: 16px auto;
+    background-color: #22202B;
+    border-radius: 12px;
+    display: flex;
+    /* position: relative; */
+    align-items: end;
+    padding: 24px;
+}
+
+.bottom-bar{
+    /* background-color: white; */
+    height: max-content;
+    width: max-content;
+    margin: 0px auto;
+    display: flex;
+}
+
+.bottom-bar button{
+    
+    margin:0px 12px;
+    border-radius: 100px;
+    border-width: 0px;
+    cursor: pointer;
+}
+.clr{
+    height: 36px;
+    width: 36px;
+    background-color: #BB86FC;
+    transition: all 0.2s ease-in-out;
+
+}
+.clr:hover{
+    box-shadow: 0 0px 16px #bb86fc42;
+}
+
+.hero-btn{
+    padding: 8px 24px;
+    background-color: #03DAC6;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+
+}
+.hero-btn:hover{
+    box-shadow: 0 0px 16px #03DAC642;
+
+}
+.show-btn{
+    color: white;
+    background-color: transparent;
+    border-style: none;
+    
+}
+
+.dash-head{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.proj-card{
+    height: 44px;
+    border-style: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    border-radius: 12px;
+    padding-right: 44px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.proj-card:hover{
+    background-color: #22202B;
+}
+.proj-card div{
+    height: 44px;
+    width: 44px;
+    background-color: #22202B;
+    border-radius: 44px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proj-card div img{
+    width: 20px;
+    height: 20px;
+}
+.grp-select-vid{
+    margin-top: 20px;
+}
+.select-vid{
+    background-color: transparent;
+    color: #BB86FC;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: #BB86FC;
+    border-width: 1px;
+    padding: 16px 24px;
+    margin-right: 24px;
+    
+}
+
+.grp-vid-title{
+    display: flex;
+    margin-top: 36px;
+    align-items: center;
+}
+.vid-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+.grp-vid-title button{
+    background-color: transparent;
+    border-style: none;
+    color: white;
+    font-size: 1rem;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.grp-vid-title button img{
+    margin-right: 8px;
+}
+
+.vid-text{
+    font-size: 1rem;
+    line-height: 148%;
+    margin-top: 20px;
+}

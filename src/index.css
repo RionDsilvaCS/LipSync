@@ -56,7 +56,7 @@ body{
 .foot-page{
   height: 50dvh;
   width: 100%;
-  background-color: #1C1636;
+  background-color: #161520;
 }
 
 .bottom-margin {
@@ -78,5 +78,10 @@ body{
   100% { opacity: 1; }
 }
 
+
+.three-two{
+  font-size: 2rem;
+  font-weight: 500;
+}
 
 

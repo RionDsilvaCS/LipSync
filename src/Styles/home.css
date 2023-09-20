@@ -32,12 +32,13 @@
     font-size: 16px;
     border-style: solid;
     border-color: #BB86FC;
-    /* animation: fadeInNav 1s ease-in both; */
+    transition: all 0.2s ease-in-out;
 }
 .start-btn:hover{
     background-color: #0A0814;
     color: #BB86FC;
     cursor: pointer;
+    box-shadow: 0 0px 16px #bb86fc42;
 }
 .home-back-grad-left{
     width: 8dvw;

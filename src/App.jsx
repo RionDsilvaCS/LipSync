@@ -5,6 +5,7 @@ import Product from './Components/product';
 import Steps from './Components/steps';
 import About from './Components/about'
 import Foot from './Components/footer';
+import Dash from './Components/dashboard';
 import './App.css';
 import {Route, Routes} from "react-router-dom"
 
@@ -13,18 +14,27 @@ function App(){
     return (
         <>
         <Navbar />
-        {/* <div>
+        <div>
             <Routes>
-                <Route path='#home' element={<Home />} />
-                <Route path='#product' element={<Product />} />
-                <Route path='#about' element={<About />} />
+                <Route path='/main' element={
+                    <>
+                    <Home />
+                    <Product/>
+                    <Steps/>
+                    <About/>
+                    
+                    </>
+                } />
+                <Route path='/dashboard' element={<Dash />} />
+ 
             </Routes>
-        </div> */}
-        <Home/>
+        </div>
+        <Foot/>
+        {/* <Home/>
         <Product/>
         <Steps/>
         <About/>
-        <Foot/>
+        <Foot/> */}
         </>
     
     );

@@ -108,6 +108,7 @@
     display: flex;
     justify-content: center;
     transition-delay: 0.1;
+    box-shadow: 0 0px 16px #03dac542;
 }
 
 .tech-grp{
