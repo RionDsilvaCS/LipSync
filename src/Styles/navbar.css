@@ -65,3 +65,66 @@ nav {
     box-shadow: 0 0px 8px #ffffff;
 
 }
+
+.auth-pop{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0A0814;
+    padding: 60px 80px;
+    z-index: 1000;
+    display: block;
+    width: 40dvw;
+    border-radius: 16px;
+    
+}
+.auth-pop p{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 36px;
+}
+
+.auth-pop button{
+    position: absolute;
+    right: 0;
+    margin-right: 60px;
+    transform: translateY(-50%);
+}
+
+input{
+    width: 100%;
+    height: 48px;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff37;
+    margin: 8px auto 36px auto;
+    padding: 8px 16px;
+    font-size: 1rem;
+}
+
+.form-log{
+    width: 100%;
+    height: 48px;
+    background-color: #BB86FC;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff37;
+    border-radius: 16px;
+    margin: 36px auto 36px auto;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.shade-back{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}

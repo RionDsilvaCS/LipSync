@@ -89,13 +89,11 @@
     background-color: #22202B;
     border-radius: 12px;
     display: flex;
-    /* position: relative; */
     align-items: end;
     padding: 24px;
 }
 
 .bottom-bar{
-    /* background-color: white; */
     height: max-content;
     width: max-content;
     margin: 0px auto;

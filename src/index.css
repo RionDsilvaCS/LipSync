@@ -124,3 +124,13 @@ body{
   width: 20px;
   height: 20px;
 }
+
+.close-icon{
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
+button{
+  cursor: pointer;
+}

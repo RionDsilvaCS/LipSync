@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import ProjectCard from "../Layouts/ProjectCard";
 import "../../Styles/dash.css";
 import addIcon from "../../assets/add_icon.svg";
@@ -9,28 +9,35 @@ import stopIcon from "../../assets/stop_icon.svg";
 import voiceIcon from "../../assets/voice_icon.svg";
 import projIcon from "../../assets/proj_icon.svg";
 import editIcon from "../../assets/edit_icon.svg";
+import jsonData from "../../project_data.json";
 
 function PageTitle() {
   return <h1 className="page-title pad">Dashboard</h1>;
 }
 
 function PageContent() {
+  const [project_id, setId] = useState(2);
+  const project = jsonData.projects[project_id];
+  function changeIndex(index){
+      setId(index);
+  }
   return (
     <React.Fragment>
       <div className="dash-pt-v">
-        <ProjectSection />
-        <VideoSection />
+        <ProjectSection changeId={changeIndex}/>
+        <VideoSection project={project}/>
       </div>
-      <TextSection />
+      <TextSection project={project}/>
     </React.Fragment>
   );
 }
 
-function VideoSection() {
+function VideoSection({project}) {
+  
   return (
     <div className="cont-com man-vid">
       <div className="flex-div">
-        <p className="three-two">Project_Name</p>
+        <p className="three-two">{project["project_name"]}</p>
         <button className="dash-btn record">Record</button>
       </div>
       <div className="main-vid">
@@ -54,7 +61,10 @@ function VideoSection() {
   );
 }
 
-function ProjectSection() {
+function ProjectSection({changeId}) {
+  function changeIndex(index){
+    changeId(index);
+  }
   return (
     <div className="cont-com man-proj">
       <p className="three-two">Projects</p>
@@ -62,36 +72,39 @@ function ProjectSection() {
         <img src={addIcon} /> New Project
       </button>
       <p className="dash-head">Recent</p>
-      <ProjectCard icon={projIcon} projectName="YouTube video record" />
-      <ProjectCard icon={projIcon} projectName="LinkedIn video record" />
-      <ProjectCard icon={projIcon} projectName="Instagram video record" />
+      <ProjectCard icon={projIcon} changeIndex={changeIndex}/>
       <button className="show-btn dash-head">Show more</button>
     </div>
   );
 }
 
-function TextSection() {
+function TextSection({project}) {
+
+  const [vid_txt, setVidTxt] = useState(project.project_video[0].video_script)
+  const [vid_title, setVidTitle] = useState(project.project_video[0].video_title)
+
+  const vidCardClick = (index) => {
+    setVidTxt(project.project_video[index].video_script)
+    setVidTitle(project.project_video[index].video_title)
+  }
   return (
     <div className="dash-pt-t">
       <p className="three-two">Recorded Videos</p>
       <div className="grp-select-vid">
-        <button className="select-vid">Video_1_record</button>
-        <button className="select-vid">Video_2_record</button>
-        <button className="select-vid">Video_3_record</button>
+        {project["project_video"].map((video, index) => (
+          <button className="select-vid" onClick={() => {vidCardClick(index)}} key={index}>{video["video_title"]}</button>
+        ))
+        }
       </div>
       <div className="grp-vid-title">
-        <p className="vid-title">Video_1_record content</p>
+        <p className="vid-title">{vid_title}</p>
         <button>
           <img src={editIcon} />
           Edit
         </button>
       </div>
       <p className="vid-text">
-        3rd year student pursuing Computer Science Engineering, Vellore
-        Institute of Technology - Andhra Pradesh. All this started when i went
-        through the problem statements provided in "IBM Hack" by IBM. and they
-        needed a better solution. So i thought of giving it a try and here we
-        are.
+        {vid_txt}
       </p>
     </div>
   );
